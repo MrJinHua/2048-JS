@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+}
+
+
+.app {
+    width: 400px;
+    margin: 20px auto;
+}
+
+.scoreDisplay {
+    margin-bottom: 20px;
+    width: 400px;
+    height: 30px;
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 30px;
+}
+
+.scoreDisplay .score {
+    /* font-size: 30px; */
+}
+
+.overInf {
+    margin: 100px auto 1000px;
+    width: 400px;
+    height: 100px;
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    background-color: red;
+    border-radius: 20px;
+}
+
+.grids {
+    width: 400px;
+    height: 400px;
+    background-color: #ccc;
+    border: 5px solid rgb(14, 13, 13);
+    border-radius: 15px;
+}
+
+#grid {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border: 1px solid rgb(48, 47, 47);
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+.num2 {
+    background-color: rgb(28, 170, 99);
+}
+.num4 {
+    background-color: rgb(24, 165, 184);
+}
+.num8 {
+    background-color: rgb(47, 95, 201);
+}
+.num16 {
+    background-color: rgb(37, 35, 168);
+}
+.num32 {
+    background-color: rgb(83, 15, 129);
+}
+.num64 {
+    background-color: pink;
+}
+.num128 {
+    background-color: rgb(166, 29, 190);
+}
+.num256 {
+    background-color: rgb(193, 231, 65);
+}
+.num512 {
+    background-color: rgb(231, 54, 193);
+}
+.num1024 {
+    background-color: rgb(233, 219, 27);
+}
+.num2048 {
+    background-color: rgb(227, 230, 80);
+}
+.morethan2048 {
+    background-color: rgb(224, 238, 164);
+}
+
+
